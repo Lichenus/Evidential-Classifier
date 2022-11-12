@@ -16,4 +16,5 @@ prevGrad = np.zeros(54)
 desiredBBAs = [ np.zeros(3) for i in range(150) ]
 
 freeDims = list(range(4))
-
+numPoints = np.product([91, 51])
+print(numPoints)
